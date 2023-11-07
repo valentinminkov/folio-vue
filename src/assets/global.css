@@ -1,0 +1,218 @@
+/*CSS Reset */
+
+/* Sets default line height and font size for the document to ensure consistency and makes 1rem equal to 10px for easier calculations. */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%; /* Prevents adjustments of font size after orientation changes in iOS */
+  font-size: 62.5%;
+}
+
+/* Removes default margin to avoid unexpected spaces around the <body>. */
+body {
+  margin: 0;
+}
+
+/* Ensures <main> is always displayed as a block-level element for consistency. */
+main {
+  display: block;
+}
+
+/* Sets default font size and margin for <h1> to ensure consistency. */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Resets <hr> to ensure it does not contribute to the size of the box and is not styled in an unexpected way by default. */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/* Sets a consistent monospace font for <pre> and avoids scaling issues with font size. */
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Ensures links don't have a background color by default. */
+a {
+  background-color: transparent;
+}
+
+/* Removes the bottom border from <abbr> and adds a dotted underline for a consistent appearance. */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+/* Increases the weight of <b> and <strong> to ensure they are bolder than the surrounding text. */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* Ensures a consistent monospace font and font size for code elements. */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Slightly reduces the font size for <small> for emphasis. */
+small {
+  font-size: 80%;
+}
+
+/* Adjusts <sub> and <sup> elements to align properly with the baseline and sets a smaller font size. */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Ensures <img> elements do not have a border by default. */
+img {
+  border-style: none;
+}
+
+/* Resets form elements to use the font settings from their parent for consistency. */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Ensures that buttons and inputs do not reserve space for overflow content. */
+button,
+input {
+  overflow: visible;
+}
+
+/* Prevents buttons and selects from receiving a default text transformation. */
+button,
+select {
+  text-transform: none;
+}
+
+/* Standardizes the appearance of buttons and button-like inputs across browsers. */
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+/* Removes extra padding and border in Firefox that appear by default on some elements when they are focused. */
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* Provides minimal styling for <fieldset> to align with the reset styles. */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/* Resets <legend> to ensure it behaves like a block-level box and inherits text color for consistency. */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* Ensures <progress> aligns properly with the baseline. */
+progress {
+  vertical-align: baseline;
+}
+
+/* Ensures <textarea> behaves in a predictable way when content overflows. */
+textarea {
+  overflow: auto;
+}
+
+/* Standardizes the box model for checkboxes and radio buttons to prevent unexpected layout shifts. */
+[type='checkbox'],
+[type='radio'] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Removes default inner padding and search cancel button in Safari and Chrome on macOS. */
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button,
+[type='search'] {
+  height: auto;
+}
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Resets the file upload button to have the same font as inherited. */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+/* Ensures <details> is displayed correctly as a block. */
+details {
+  display: block;
+}
+
+/* Ensures <summary> is displayed correctly as a list item. */
+summary {
+  display: list-item;
+}
+
+/* Ensures that elements with the `hidden` attribute are not displayed. */
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* Custom styles should be added below the reset. */
+
+/* Sets the default font family and line height for the body to ensure readability and aesthetic spacing. */
+body {
+  font-family: 'Your Preferred Font', sans-serif;
+  line-height: 1.6;
+}
